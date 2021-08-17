@@ -1,0 +1,40 @@
+
+<!-- Can create Admin and user Login form and attach to this-->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SignUp Form</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="styl.css">
+</head>
+<body>
+	<h1>Course Central</h1>
+	<form>
+		<h2>Registration</h2>
+		<input type="text" name="us" placeholder="Username" required="us">
+		<input type="text" name="cr" list="tech" placeholder="Course" required="cr">
+		<datalist id="tech">
+			<option>HTML</option>
+			<option>CSS</option>
+			<option>PHP</option>
+			<option>JavaScript</option>
+			<option>none</option>
+
+		</datalist>
+		<input type="email" name="em" placeholder="Enter email-id" required="em">
+		<input type="password" name="pw" placeholder="Enter password" required="pw">
+		<input type="text" name="ph" placeholder="Enter Phone no." required="ph">
+		<button type="submit">SignUp</button><br>
+		<p class="message">Already Registered? &nbsp<a href="#">Login</a></p>
+	</form>
+	<div class="ada">
+		<a href="#">Admin?</a>
+	</div>
+	
+
+</body>
+</html>
+
+
+
